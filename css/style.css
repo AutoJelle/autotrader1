@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Lato');
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+/*START HEADER*/
+.header {
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 100px;
+    background-color: white;
+    width: 80%;
+}
+
+.navbar-brand{
+    height: 45px;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    background-color: white;
+    border: 0px solid white;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+    color: black;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover{
+    color: #0FAAE4;
+}
+
+#menuDevider{
+    margin-top: 13px;
+}
+
+.navbar-inverse .navbar-nav > .afterDeviderMenu > a{
+    color: #0FAAE4;
+}
+
+.navbar-inverse .navbar-nav > .afterDeviderMenu > a:visited{
+    color: #0FAAE4;
+}
+
+.navbar-inverse .navbar-right > li > a{
+    color: grey;
+}
+
+.navbar-inverse .navbar-right > li > a:hover{
+    color: grey;
+}
+
+
+.navbar-inverse .navbar-right > li > a:visited{
+    color: grey;
+}
+
+
+/*END HEADER*/
+
+
+section {
+    min-height: 75%;
+    padding-bottom:163px;
+    margin: auto;
+    margin-bottom: auto;
+}
+
+.pageDiv{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pageDivContent{
+    width: 60%;
+    margin: auto;
+}
+
+footer{
+    position: relative;
+    margin-top: auto;
+    clear: both;
+    background-color: gray;
+    color: white;
+    min-height: 50px;
+    display: block;
+}
+
+footer a, footer a:visited, footer a:hover{
+    color: white;
+}
+
+#footerRow{
+    padding: 30px;
+}
+
+.centerIt{
+    border: 1px solid black;
+}
+
+.zoekBlokClass{
+    width: auto;
+    height: 400px;
+    background-image: url(../images/mainImage.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.zoekFunctie{
+    background-color: white;
+    margin-top: 10px;
+}
+
+.zoekFunctie #home{
+    margin-left: 15px;
+}
+
+.form-group {
+    margin: 5px;
+    /*width: 100%;*/
+}
+
+#home{
+    width:300px;
+    display:table;
+}
+
+.btn{
+    margin: 3px;
+    min-width: 150px;
+}

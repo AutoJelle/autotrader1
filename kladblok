@@ -1,0 +1,43 @@
+x model
+x prijs
+x bouwjaar
+x kilometerstand
+x brandstof
+x schakeling
+x kleur
+x kenteken
+x aantalDeuren
+x aantalZitplaatsen
+x milieu
+x veiligheidsklasse
+x lengte
+x breedte
+x hoogte
+x gewicht
+x versnellingen
+
+
+
+x idBestelling
+x idVoertuig
+x idKlant
+x voertuigMerk
+x voertuigType
+x besteldatum
+x bezorgenOfOphalen
+x geselecteerdeDatum
+x prijs
+
+
+Merk
+x Model
+x Schakeling
+x Brandstof
+Type
+x Bouwjaar
+
+x Kilometerstand
+x Kleur
+Aantal Zitplaatsen
+Versnellingen
+Prijs
